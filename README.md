@@ -30,22 +30,26 @@ Criar 3 pacotes:
 No pacote VIEW criar a interface gráfica:<br><br>
 <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/interface%20login.png" alt="interface" height="300" width="500">
 <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/ID%20e%20senha.PNG" alt="interface" height="200" width="400">
-<ul><li>Criar a classe de conexão chamada ConexaoDAO.java (clicar com o botão direito na pasta src/New/Class)</li>
-<li>Criar o método ConexaoBD público do tipo Connection (CTRL+Espaço para abrir o ajuda do editor de códigos)</li>
-<li>Criar um bloco try .. catch</li></ul>
+<ul>
+    <li>Criar a classe de conexão chamada ConexaoDAO.java (clicar com o botão direito na pasta src/New/Class)</li>
+    <li>Criar o método ConexaoBD público do tipo Connection (CTRL+Espaço para abrir o ajuda do editor de códigos)</li>
+    <li>Criar um bloco try .. catch</li>
+</ul>
 Baixar e importar o driver de conexão em:
 <a href="https://dev.mysql.com/downloads/connector/j/">https://dev.mysql.com/downloads/connector/j/</a><br><br>
 
 Descompactar o arquivo em uma pasta
-<ul><li>Adicionar o driver num projeto, clique com o botão direito na pasta Library/BuildPath/Configure BuildPath</li>
-        <li>Clique em ModulePath/add External JARS</li>
-            <li>Aponte a pasta do drive, clique em Apply, e em seguida Apply and Close.</li>
+<ul>
+    <li>Adicionar o driver num projeto, clique com o botão direito na pasta Library/BuildPath/Configure BuildPath</li>
+    <li>Clique em ModulePath/add External JARS</li>
+    <li>Aponte a pasta do drive, clique em Apply, e em seguida Apply and Close.</li>
 Criar um banco de dados chamado: bancoteste (mesmo nome feito no método ConexaoDAO) e uma tabela chamada usuario. ID= Admin Senha=123<br>
+</ul>
 <li>Use o Xampp</li>
     <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/xampp.png" alt="xampp" height="300" width="500">
     <li>Na barra de endereço do navegador digite: <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a></li><br>
 
-    Execute o programa a partir da interface login.<br>
+    Execute o programa a partir da interface login.<br><br>
     
     Se o login estiver correto vai chamar a tela principal, caso contrario será apresentado uma mensagem de alerta.<br><br>
     <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/mensagem.PNG" alt="mensagem" height="300" width="400">
@@ -54,6 +58,6 @@ Criar um banco de dados chamado: bancoteste (mesmo nome feito no método Conexao
    <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/youtube.png" alt="youtube" height="30" width="40"> <a href="https://www.youtube.com/playlist?list=PLA177te8KCzejCXMA_Jd1sJU9pw-utKJ_"> Autenticação de Usuário - Login JAVA com MYSQL </a></ul><br>
    
 <strong> BrunoDuarte </strong><br>
-</p> 
+ 
 </body>
 </html>
