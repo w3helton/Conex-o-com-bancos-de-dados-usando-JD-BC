@@ -1,35 +1,58 @@
 # Conexão-com-bancos-de-dados-usando-JDBC
 
 
-Features
-Ferramentas utilizadas nesse projeto:
-XAMPP é um pacote com os principais servidores de código aberto do mercado, incluindo FTP, banco de dados MySQL e Apache com suporte as linguagens PHP e Perl
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p> 
 
-https://www.apachefriends.org/pt_br/download.html
 
-Eclipse IDE 2023‑03 – IDE de desenvolvimento Java leve e gratuita
+<h1>Ferramentas utilizadas nesse projeto:</h1>
+<b>XAMPP</b>  é um pacote com os principais servidores de código aberto do mercado, incluindo FTP, banco de dados MySQL e Apache com suporte as linguagens PHP e Perl
+<a href="https://www.apachefriends.org/pt_br/download.html">https://www.apachefriends.org/pt_br/download.html</a><br><br>
 
-https://www.eclipse.org/downloads/
+<b> ECLIPSE </b>– IDE de desenvolvimento Java leve e gratuita
+<a href="https://www.eclipse.org/downloads/">https://www.eclipse.org/downloads/</a>
 
-Getting Start
-•	Criar um novo projeto JAVA
-Cria 3 pacotes:
-•	DAO  acesso aos objetos (classe Conexao.java)
-•	DTO  transferência de objetos (getters e setters)
-•	VIEW  interfaces gráficas e códigos correspondentes a interface 
-No pacote VIEW criar a interface gráfica:
+<h1>Getting Start</h1>
 
-•	Criar a classe de conexão chamada ConexaoDAO.java (clicar com o botão direito na pasta src/New/Class)
-•	Criar o método ConexaoBD público do tipo Connection (CTRL+Espaço para abrir o ajuda do editor de códigos)
-•	Criar um bloco try .. catch
+Criar um novo projeto JAVA<br><br>
+Criar 3 pacotes:
+<ul><li>DAO - acesso aos objetos (classe Conexao.java)</li>
+<li>DTO - transferência de objetos (getters e setters)</li>
+<li>VIEW - interfaces gráficas e códigos correspondentes a interface </li></ul>
+No pacote VIEW criar a interface gráfica:<br><br>
+<img src="..\jbdc\img\interface login.png" alt="interface" height="300" width="500">
+<img src="..\jbdc\img\ID e senha.png" alt="interface" height="200" width="400">
+<ul><li>Criar a classe de conexão chamada ConexaoDAO.java (clicar com o botão direito na pasta src/New/Class)</li>
+<li>Criar o método ConexaoBD público do tipo Connection (CTRL+Espaço para abrir o ajuda do editor de códigos)</li>
+<li>Criar um bloco try .. catch</li></ul>
 Baixar e importar o driver de conexão em:
-https://dev.mysql.com/downloads/connector/j/
+<a href="https://dev.mysql.com/downloads/connector/j/">https://dev.mysql.com/downloads/connector/j/</a><br><br>
 
 Descompactar o arquivo em uma pasta
-•	Adicionar o driver num projeto, clique com o botão direito na pasta Library/BuildPath/Configure BuildPath
-•	Clique em ModulePath/add External JARS
-•	Aponte a pasta do drive, clique em Apply, e em seguida Apply and Close.
-•	Criar um banco de dados chamado: bancoteste (mesmo nome feito no método ConexaoDAO) e uma tabela chamada usuario.
-•	Use o Xampp
-•	Na barra de endereço do navegador digite: http://localhost/phpmyadmin
+<ul><li>Adicionar o driver num projeto, clique com o botão direito na pasta Library/BuildPath/Configure BuildPath</li>
+        <li>Clique em ModulePath/add External JARS</li>
+            <li>Aponte a pasta do drive, clique em Apply, e em seguida Apply and Close.</li></ul>
+Criar um banco de dados chamado: bancoteste (mesmo nome feito no método ConexaoDAO) e uma tabela chamada usuario. ID= Admin Senha=123<br>
+<ul><li>Use o Xampp</li>
+    <img src="..\img\xampp.png" alt="xampp" height="300" width="500">
+    <li>Na barra de endereço do navegador digite: <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a></li><br>
 
+    <p> Execute o programa a partir da interface login.
+    Se o login estiver correto vai chamar a tela principal, caso contrario será apresentado uma mensagem de alerta.<br><br>
+    <img src="..\jbdc\img\mensagem.PNG" alt="mensagem" height="300" width="400"></p>
+
+<h1>Referência</h1>
+   <img src="..\jbdc\img\youtube.png" alt="youtube" height="30" width="40"> <a href="https://www.youtube.com/playlist?list=PLA177te8KCzejCXMA_Jd1sJU9pw-utKJ_"> Autenticação de Usuário - Login JAVA com MYSQL </a><br>
+   
+<strong> BrunoDuarte </strong><br>
+</p> 
+</body>
+</html>
