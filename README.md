@@ -28,8 +28,8 @@ Criar 3 pacotes:
 <li>DTO - transferência de objetos (getters e setters)</li>
 <li>VIEW - interfaces gráficas e códigos correspondentes a interface </li></ul>
 No pacote VIEW criar a interface gráfica:<br><br>
-<img src="..\img\interface login.png" alt="interface" height="300" width="500">
-<img src="..\img\ID e senha.png" alt="interface" height="200" width="400">
+<img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/interface%20login.png" alt="interface" height="300" width="500">
+<img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/ID%20e%20senha.PNG" alt="interface" height="200" width="400">
 <ul><li>Criar a classe de conexão chamada ConexaoDAO.java (clicar com o botão direito na pasta src/New/Class)</li>
 <li>Criar o método ConexaoBD público do tipo Connection (CTRL+Espaço para abrir o ajuda do editor de códigos)</li>
 <li>Criar um bloco try .. catch</li></ul>
@@ -42,7 +42,7 @@ Descompactar o arquivo em uma pasta
             <li>Aponte a pasta do drive, clique em Apply, e em seguida Apply and Close.</li></ul>
 Criar um banco de dados chamado: bancoteste (mesmo nome feito no método ConexaoDAO) e uma tabela chamada usuario. ID= Admin Senha=123<br>
 <ul><li>Use o Xampp</li>
-    <img src="..\img\xampp.png" alt="xampp" height="300" width="500">
+    <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/xampp.png" alt="xampp" height="300" width="500">
     <li>Na barra de endereço do navegador digite: <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a></li><br>
 
     <p> Execute o programa a partir da interface login.
