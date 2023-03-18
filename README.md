@@ -1,17 +1,4 @@
-# Conexão-com-bancos-de-dados-usando-JDBC
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <p> 
-
+# Conexão-com-bancos-de-dados-usando-JDBC /MySQL
 
 <h1>Ferramentas utilizadas nesse projeto:</h1>
 <b>XAMPP</b>  é um pacote com os principais servidores de código aberto do mercado, incluindo FTP, banco de dados MySQL e Apache com suporte as linguagens PHP e Perl
@@ -58,5 +45,5 @@ Use o Xampp
    
 <strong> BrunoDuarte </strong><br>
  
-</body>
+
 </html>
