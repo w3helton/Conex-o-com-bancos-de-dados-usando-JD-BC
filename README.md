@@ -28,8 +28,8 @@ Criar 3 pacotes:
 <li>DTO - transferência de objetos (getters e setters)</li>
 <li>VIEW - interfaces gráficas e códigos correspondentes a interface </li></ul>
 No pacote VIEW criar a interface gráfica:<br><br>
-<img src="..\jbdc\img\interface login.png" alt="interface" height="300" width="500">
-<img src="..\jbdc\img\ID e senha.png" alt="interface" height="200" width="400">
+<img src="..\img\interface login.png" alt="interface" height="300" width="500">
+<img src="..\img\ID e senha.png" alt="interface" height="200" width="400">
 <ul><li>Criar a classe de conexão chamada ConexaoDAO.java (clicar com o botão direito na pasta src/New/Class)</li>
 <li>Criar o método ConexaoBD público do tipo Connection (CTRL+Espaço para abrir o ajuda do editor de códigos)</li>
 <li>Criar um bloco try .. catch</li></ul>
@@ -47,10 +47,10 @@ Criar um banco de dados chamado: bancoteste (mesmo nome feito no método Conexao
 
     <p> Execute o programa a partir da interface login.
     Se o login estiver correto vai chamar a tela principal, caso contrario será apresentado uma mensagem de alerta.<br><br>
-    <img src="..\jbdc\img\mensagem.PNG" alt="mensagem" height="300" width="400"></p>
+    <img src="..\img\mensagem.PNG" alt="mensagem" height="300" width="400"></p>
 
 <h1>Referência</h1>
-   <img src="..\jbdc\img\youtube.png" alt="youtube" height="30" width="40"> <a href="https://www.youtube.com/playlist?list=PLA177te8KCzejCXMA_Jd1sJU9pw-utKJ_"> Autenticação de Usuário - Login JAVA com MYSQL </a><br>
+   <img src="..\img\youtube.png" alt="youtube" height="30" width="40"> <a href="https://www.youtube.com/playlist?list=PLA177te8KCzejCXMA_Jd1sJU9pw-utKJ_"> Autenticação de Usuário - Login JAVA com MYSQL </a><br>
    
 <strong> BrunoDuarte </strong><br>
 </p> 
