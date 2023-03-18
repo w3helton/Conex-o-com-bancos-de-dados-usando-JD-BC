@@ -51,7 +51,7 @@ Use o Xampp
     <li>Na barra de endereço do navegador digite: <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a></li><br>
     Execute o programa a partir da interface login.<br><br>
     Se o login estiver correto vai chamar a tela principal, caso contrario será apresentado uma mensagem de alerta.<br><br>
-    <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/mensagem.PNG">
+    <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/mensagem.PNG" height="300" width="400">
 
 <h1>Referência</h1>
    <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/youtube.png" alt="youtube" height="30" width="40"> <a href="https://www.youtube.com/playlist?list=PLA177te8KCzejCXMA_Jd1sJU9pw-utKJ_"> Autenticação de Usuário - Login JAVA com MYSQL </a><br>
