@@ -43,19 +43,18 @@ Descompactar o arquivo em uma pasta
     <li>Adicionar o driver num projeto, clique com o botão direito na pasta Library/BuildPath/Configure BuildPath</li>
     <li>Clique em ModulePath/add External JARS</li>
     <li>Aponte a pasta do drive, clique em Apply, e em seguida Apply and Close.</li>
-Criar um banco de dados chamado: bancoteste (mesmo nome feito no método ConexaoDAO) e uma tabela chamada usuario. ID= Admin Senha=123<br>
+    <li>Criar um banco de dados chamado: bancoteste (mesmo nome feito no método ConexaoDAO) e uma tabela chamada usuario.</li> 
+    <li>ID= Admin Senha=123</li><br>
 </ul>
-<li>Use o Xampp</li>
+Use o Xampp
     <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/xampp.png" alt="xampp" height="300" width="500">
     <li>Na barra de endereço do navegador digite: <a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a></li><br>
-
     Execute o programa a partir da interface login.<br><br>
-    
     Se o login estiver correto vai chamar a tela principal, caso contrario será apresentado uma mensagem de alerta.<br><br>
-    <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/mensagem.PNG" alt="mensagem" height="300" width="400">
+    <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/mensagem.PNG">
 
 <h1>Referência</h1>
-   <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/youtube.png" alt="youtube" height="30" width="40"> <a href="https://www.youtube.com/playlist?list=PLA177te8KCzejCXMA_Jd1sJU9pw-utKJ_"> Autenticação de Usuário - Login JAVA com MYSQL </a></ul><br>
+   <img src="https://raw.githubusercontent.com/w3helton/Conexao-com-bancos-de-dados-usando-JDBC/main/img/youtube.png" alt="youtube" height="30" width="40"> <a href="https://www.youtube.com/playlist?list=PLA177te8KCzejCXMA_Jd1sJU9pw-utKJ_"> Autenticação de Usuário - Login JAVA com MYSQL </a><br>
    
 <strong> BrunoDuarte </strong><br>
  
